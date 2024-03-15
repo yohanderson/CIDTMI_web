@@ -56179,8 +56179,8 @@ s.a0(0)
 a.dq(s,p)},
 er(a){return!1}}
 A.DN.prototype={
-a8(){var s="Bioanalizador Cuantico",r="Escaner de resonancia magn\xe9tica, realiza un diagn\xf3stico de todo tu organismo. diagn\xf3stica m\xe1s de 45 par\xe1metros de tu cuerpo. Cerebro, coraz\xf3n, Pulmones, h\xedgado, p\xe1ncreas, ves\xedcula biliar, bazo, etc..",q="assets/img/web3.png",p=t.N,o=t.z
-return new A.JP(A.cP([B.nn],t.xM),A.Ta(0,0.5),A.a([A.a1(["title","Analisis","subTitle",s,"content",r,"url",q,"botonText","Tratamietos","botonFunction","Tratamietos"],p,o),A.a1(["title","Intravenoso","subTitle","Oligo Elementos","content",r,"url",q,"botonText","Tratamietos","botonFunction","Tratamietos"],p,o),A.a1(["title","Acunpuntura","subTitle",s,"content",r,"url","assets/img/web4.png","botonText","Tratamietos","botonFunction","Tratamietos"],p,o)],t.H7),A.Ta(0,1),null,null,B.t)},
+a8(){var s="Bioanalizador Cuantico",r="Escaner de resonancia magn\xe9tica, realiza un diagn\xf3stico de todo tu organismo. diagn\xf3stica m\xe1s de 45 par\xe1metros de tu cuerpo. Cerebro, coraz\xf3n, Pulmones, h\xedgado, p\xe1ncreas, ves\xedcula biliar, bazo, etc..",q="assets/assets/img/web3.png",p=t.N,o=t.z
+return new A.JP(A.cP([B.nn],t.xM),A.Ta(0,0.5),A.a([A.a1(["title","Analisis","subTitle",s,"content",r,"url",q,"botonText","Tratamietos","botonFunction","Tratamietos"],p,o),A.a1(["title","Intravenoso","subTitle","Oligo Elementos","content",r,"url",q,"botonText","Tratamietos","botonFunction","Tratamietos"],p,o),A.a1(["title","Acunpuntura","subTitle",s,"content",r,"url","assets/assets/img/web4.png","botonText","Tratamietos","botonFunction","Tratamietos"],p,o)],t.H7),A.Ta(0,1),null,null,B.t)},
 ON(a){return this.d.$1(a)}}
 A.JP.prototype={
 aq1(a){},
@@ -60723,7 +60723,7 @@ o.as=q},
 axm(){var s,r,q,p,o,n,m=this,l=null,k=m.c
 k.toString
 k=A.ao(k,l,t.m).w
-s=A.V(A.el("assets/img/citdmi.png",l,l),40,l)
+s=A.V(A.el("assets/assets/img/citdmi.png",l,l),40,l)
 r=A.at(!1,l,!0,A.t("Inicio",l,l,l,A.a6(l,l,B.r,l,m.w===0?B.dG:B.p,l,l,2,l,l,l,15,l,l,B.E,l,1.5,!0,l,l,l,l,l,l,l,l),l,l,l),l,!0,l,l,l,l,l,l,l,l,l,l,new A.aw8(m),l,l,l,l)
 q=A.at(!1,l,!0,A.t("Tienda",l,l,l,A.a6(l,l,B.r,l,m.w===1?B.dG:B.p,l,l,2,l,l,l,15,l,l,B.E,l,1.5,!0,l,l,l,l,l,l,l,l),l,l,l),l,!0,l,l,l,l,l,l,l,l,l,l,new A.aw9(m),l,l,l,l)
 p=t.p
@@ -60817,7 +60817,7 @@ q=A.Pi(A.x(m,m,B.h,m,m,A.dV(m,m,A.a([A.eV(40,B.au,A.ad(B.f.bi(127.5),33,29,68),!
 p=s.axm()
 o=s.as
 o===$&&A.b()
-r=A.Va(A.dR(B.ao,A.a([q,A.N(A.a([p,A.b7(o[s.w],1)],r),B.e,B.i,B.d),A.hv(10,new A.eb(s.a.c,new A.awh(s),m,m,t.D0),m,m,10,m,m,m),A.hv(0,A.x(m,A.N(A.a([A.ez(m,A.el("assets/img/instagram.png",m,m),m,new A.awi(),m,m,m),A.ez(m,A.el("assets/img/tiktok.png",m,m),m,new A.awj(),m,m,m),A.ez(m,A.el("assets/img/whatsapp.png",m,m),m,new A.awk(),m,m,m)],r),B.e,B.a1,B.d),B.h,m,m,B.I4,m,150,m,m,m,m,50),m,m,m,0,m,m)],r),B.G,B.ak),m)
+r=A.Va(A.dR(B.ao,A.a([q,A.N(A.a([p,A.b7(o[s.w],1)],r),B.e,B.i,B.d),A.hv(10,new A.eb(s.a.c,new A.awh(s),m,m,t.D0),m,m,10,m,m,m),A.hv(0,A.x(m,A.N(A.a([A.ez(m,A.el("assets/assets/img/instagram.png",m,m),m,new A.awi(),m,m,m),A.ez(m,A.el("assets/assets/img/tiktok.png",m,m),m,new A.awj(),m,m,m),A.ez(m,A.el("assets/assets/img/whatsapp.png",m,m),m,new A.awk(),m,m,m)],r),B.e,B.a1,B.d),B.h,m,m,B.I4,m,150,m,m,m,m,50),m,m,m,0,m,m)],r),B.G,B.ak),m)
 return r}},
 $S:355}
 A.awh.prototype={

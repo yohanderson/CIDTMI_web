@@ -595,6 +595,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
             child: Container(),
           ),
           Container(
+            height: MediaQuery.of(context).size.height,
             decoration: const BoxDecoration(color: Colors.black),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -612,38 +613,34 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                     ),
                   ),
                   SizedBox(
-                    height: 700,
                     width: 470,
-                    child: Padding(
-                      padding: const EdgeInsets.all(15),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 100),
-                            child: Text(
-                              '¿Tienes una duda específica? Contacta con nosotros',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 35,
-                                  fontWeight: FontWeight.bold),
-                            ),
-                          ),
-                          Column(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text(
+                          '¿Tienes una duda específica? Contacta con nosotros',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 35,
+                              fontWeight: FontWeight.bold),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Column(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Row(
                                 mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                MainAxisAlignment.spaceBetween,
                                 children: [
                                   SizedBox(
                                     width: 210,
                                     child: Column(
                                       crossAxisAlignment:
-                                          CrossAxisAlignment.center,
+                                      CrossAxisAlignment.center,
                                       mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                                      MainAxisAlignment.center,
                                       children: [
                                         const Text(
                                           'UBICACIÓN',
@@ -653,8 +650,8 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                               fontWeight: FontWeight.bold),
                                         ),
                                         Padding(
-                                          padding:
-                                              const EdgeInsets.only(top: 10),
+                                          padding: const EdgeInsets.only(
+                                              top: 10),
                                           child: Text(
                                             'Calle salinas 1385 Local 5',
                                             style: GoogleFonts.roboto(
@@ -666,7 +663,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsets.only(top: 5),
+                                          const EdgeInsets.only(top: 5),
                                           child: Text(
                                             'San Felipe, Valparaíso, 2170000, Chile',
                                             style: GoogleFonts.roboto(
@@ -692,8 +689,8 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                               fontWeight: FontWeight.bold),
                                         ),
                                         Padding(
-                                          padding:
-                                              const EdgeInsets.only(top: 10),
+                                          padding: const EdgeInsets.only(
+                                              top: 10),
                                           child: Text(
                                             'Móvil :  +56 967048828',
                                             textAlign: TextAlign.center,
@@ -706,7 +703,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                         ),
                                         Padding(
                                           padding:
-                                              const EdgeInsets.only(top: 5),
+                                          const EdgeInsets.only(top: 5),
                                           child: Text(
                                             'Email : Contact@mundocellcl.com',
                                             textAlign: TextAlign.center,
@@ -726,26 +723,28 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                 padding: const EdgeInsets.only(top: 10),
                                 child: Row(
                                   mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
+                                  MainAxisAlignment.spaceBetween,
                                   children: [
                                     SizedBox(
                                       width: 210,
                                       child: Column(
                                         children: [
                                           const Padding(
-                                            padding: EdgeInsets.only(top: 10),
+                                            padding:
+                                            EdgeInsets.only(top: 10),
                                             child: Text(
                                               'HORARIO DE ATENCIÓN',
                                               textAlign: TextAlign.center,
                                               style: TextStyle(
                                                   color: Colors.white,
                                                   fontSize: 20,
-                                                  fontWeight: FontWeight.bold),
+                                                  fontWeight:
+                                                  FontWeight.bold),
                                             ),
                                           ),
                                           Padding(
-                                            padding:
-                                                const EdgeInsets.only(top: 5),
+                                            padding: const EdgeInsets.only(
+                                                top: 5),
                                             child: Text(
                                               'Lun – Vier  09:00 – 19:00',
                                               style: GoogleFonts.roboto(
@@ -756,8 +755,8 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                             ),
                                           ),
                                           Padding(
-                                            padding:
-                                                const EdgeInsets.only(top: 5),
+                                            padding: const EdgeInsets.only(
+                                                top: 5),
                                             child: Text(
                                               'Sab – Dom 10:00 – 14:00',
                                               style: GoogleFonts.roboto(
@@ -774,7 +773,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                       width: 210,
                                       child: Column(
                                         crossAxisAlignment:
-                                            CrossAxisAlignment.center,
+                                        CrossAxisAlignment.center,
                                         children: [
                                           const Text(
                                             '¡SIGUENOS EN INSTAGRAM!',
@@ -782,11 +781,12 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                             style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 17,
-                                                fontWeight: FontWeight.bold),
+                                                fontWeight:
+                                                FontWeight.bold),
                                           ),
                                           Padding(
-                                            padding:
-                                                const EdgeInsets.only(top: 5),
+                                            padding: const EdgeInsets.only(
+                                                top: 5),
                                             child: InkWell(
                                               onTap: () async {
                                                 const url =
@@ -801,19 +801,23 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                                 height: 25,
                                                 child: Row(
                                                   mainAxisAlignment:
-                                                      MainAxisAlignment.center,
+                                                  MainAxisAlignment
+                                                      .center,
                                                   children: [
                                                     const Icon(Icons.camera_alt,
-                                                        color: Colors.white),
+                                                        color:
+                                                        Colors.white),
                                                     Padding(
                                                       padding:
-                                                          const EdgeInsets.only(
-                                                              left: 5),
+                                                      const EdgeInsets
+                                                          .only(
+                                                          left: 5),
                                                       child: Text(
                                                         'mundocel.cl',
-                                                        style:
-                                                            GoogleFonts.roboto(
-                                                          textStyle: TextStyle(
+                                                        style: GoogleFonts
+                                                            .roboto(
+                                                          textStyle:
+                                                          TextStyle(
                                                             color: Colors
                                                                 .grey[400],
                                                           ),
@@ -832,9 +836,9 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
                                 ),
                               ),
                             ],
-                          )
-                        ],
-                      ),
+                          ),
+                        )
+                      ],
                     ),
                   )
                 ]),

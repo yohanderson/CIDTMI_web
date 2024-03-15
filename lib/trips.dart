@@ -564,7 +564,7 @@ class TripsState extends State<Trips> {
               padding: const EdgeInsets.only(left: 20),
               child: SizedBox(
                   height: 40,
-                  child: Image.network('assets/img/citdmi.png')),
+                  child: Image.network('assets/assets/img/citdmi.png')),
             ),
             SizedBox(
               width: 200,
@@ -894,15 +894,15 @@ class TripsState extends State<Trips> {
                     children: [
                       IconButton(
                         onPressed: () {},
-                        icon: Image.network('assets/img/instagram.png'),
+                        icon: Image.network('assets/assets/img/instagram.png'),
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Image.network('assets/img/tiktok.png'),
+                        icon: Image.network('assets/assets/img/tiktok.png'),
                       ),
                       IconButton(
                         onPressed: () {},
-                        icon: Image.network('assets/img/whatsapp.png'),
+                        icon: Image.network('assets/assets/img/whatsapp.png'),
                       ),
                     ],
                   ),

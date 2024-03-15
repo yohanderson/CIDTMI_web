@@ -85,7 +85,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
       'subTitle': 'Bioanalizador Cuantico',
       'content':
           'Escaner de resonancia magnética, realiza un diagnóstico de todo tu organismo. diagnóstica más de 45 parámetros de tu cuerpo. Cerebro, corazón, Pulmones, hígado, páncreas, vesícula biliar, bazo, etc..',
-      'url': 'assets/img/web3.png',
+      'url': 'assets/assets/img/web3.png',
       'botonText': 'Tratamietos',
       'botonFunction': 'Tratamietos',
     },
@@ -94,7 +94,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
       'subTitle': 'Oligo Elementos',
       'content':
           'Escaner de resonancia magnética, realiza un diagnóstico de todo tu organismo. diagnóstica más de 45 parámetros de tu cuerpo. Cerebro, corazón, Pulmones, hígado, páncreas, vesícula biliar, bazo, etc..',
-      'url': 'assets/img/web3.png',
+      'url': 'assets/assets/img/web3.png',
       'botonText': 'Tratamietos',
       'botonFunction': 'Tratamietos',
     },
@@ -103,7 +103,7 @@ class _HomeDesktopViewState extends State<HomeDesktopView>
       'subTitle': 'Bioanalizador Cuantico',
       'content':
           'Escaner de resonancia magnética, realiza un diagnóstico de todo tu organismo. diagnóstica más de 45 parámetros de tu cuerpo. Cerebro, corazón, Pulmones, hígado, páncreas, vesícula biliar, bazo, etc..',
-      'url': 'assets/img/web4.png',
+      'url': 'assets/assets/img/web4.png',
       'botonText': 'Tratamietos',
       'botonFunction': 'Tratamietos',
     },
